@@ -59,7 +59,7 @@
 
       var markupAfterInput = function () {
         var $markup = $("<div>").addClass("btn-group"),
-            $dropdownButton = $("<button type='button'>").addClass("btn color-dropdown dropdown-toggle"),
+            $dropdownButton = $("<button type='button'>").addClass("btn btn-default color-dropdown dropdown-toggle"),
             $dropdownColorPreview = $("<span>").addClass("color-preview current-color"),
             $dropdownCaret = $("<span>").addClass("caret"),
             $dropdownContainer = $("<div>").addClass("color-menu dropdown-menu");
